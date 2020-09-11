@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "873661626171",
+    "firebase_url": "https://apollo-queue-app.firebaseio.com",
+    "project_id": "apollo-queue-app",
+    "storage_bucket": "apollo-queue-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873661626171:android:3843ab1e3ae793dd",
+        "android_client_info": {
+          "package_name": "com.example.jonat.apollo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873661626171-u61j1pjjm73oom5do51uop37mcui4v4i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jonat.apollo",
+            "certificate_hash": "fe9aa295c16266d97a241a6af4c4733d9fcd2e6a"
+          }
+        },
+        {
+          "client_id": "873661626171-6iicls4ohhb71tfa2o8c9cc7hof7qish.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMr8zH4cl99q3jIXvaDdYXAoGYngM_P78"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873661626171-6iicls4ohhb71tfa2o8c9cc7hof7qish.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "873661626171-ifcadtma79elbc9i57rl603qn89poh6v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "edu.ilstu.Apollo"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateRoom">
+
+    <TextView
+        android:id="@+id/apolloText"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Apollo"
+        android:textSize="36sp"
+        android:textStyle="italic|bold"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/roomCodeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Room"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/apolloText" />
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/roomTextInput"
+    android:layout_toLeftOf="@id/roomTextInput"
+    android:layout_centerHorizontal="true"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="20dp"
+    android:text="Room Name"
+    android:textSize="18dp"/>
+
+    <EditText
+        android:id="@+id/roomTextInput"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/roomCodeText"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/roomCodeInput"
+        android:layout_toLeftOf="@id/roomCodeInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="Room Code"
+        android:textSize="18dp"/>
+
+    <EditText
+        android:id="@+id/roomCodeInput"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/roomTextInput"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/roomAliasInput"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toLeftOf="@id/roomAliasInput"
+        android:text="Alias"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/roomAliasInput"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/roomCodeInput"
+        android:layout_marginRight="50dp"/>
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Room"
+        android:layout_below="@id/roomAliasInput"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
